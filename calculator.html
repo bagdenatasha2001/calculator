@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> calculator</title>
+       <style>
+        .calculator-container
+        {
+         background-color:black;
+         height: 600px;
+         width: 500px;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 60px;
+        border-radius:10px ;
+        padding: 10px;
+        }
+        .brand-name
+        {
+        color:white ;
+        margin-left: 25px;
+        padding-top:15px;
+        font-size: 15px;
+        
+        }
+        .calculator-screen{
+            background-color: #d9ffb3;
+        width: 450px;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        font-size: 50px;
+        margin-top: 10px;
+
+        }
+        .basic{
+        width: 100px;
+        font-size: 20px;
+        margin-top:20px;
+        margin-left: 380px;
+        border-radius: 8px;
+        padding: auto;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.5s;
+        border: 2px solid rgb(128, 126, 126) ;
+        box-shadow:  0 3px  5px ;
+        }
+        
+        
+        .containerr-buttons
+        {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+        }
+        .calculator-button{
+
+            background-color:white ;
+            color: black;
+            height: 60px;
+            width:  90px;
+            margin-left: 26px;
+            font-size: 30px;
+            border-radius:10px;
+            font-weight:bold ;
+            cursor: pointer;
+            border: 2px solid rgb(128, 126, 126) ;
+            margin-top: 20px;
+
+        }
+        
+        .calculator-button:hover{
+      box-shadow:  0 3px  5px white;
+      transition: 0.5s;
+
+        }
+
+        .bg-acqa{
+            background-color: aqua;
+            color: black;
+        }
+        .bg-red{
+            background-color:red;
+            color:black;
+        }
+       </style>
+
+    </head>
+    <body>
+    
+        <div class="calculator-container">
+            <p class="brand-name"> RTC</p>
+
+            <input class="calculator-screen">
+            <div >
+                <button class="basic"> ON/OFF </button>
+    
+            <div class="container-buttons">
+               
+                <button class="calculator-button">7</button>
+                <button class="calculator-button">8</button>
+                <button class="calculator-button" >9</button>
+                <button class="calculator-button bg-acqa" >%</button>
+                
+            </div>
+
+            <div class="container-buttons">
+               
+                <button class="calculator-button">4</button>
+                <button class="calculator-button">5</button>
+                <button class="calculator-button" >6</button>
+                <button class="calculator-button bg-acqa" >*</button>
+                
+            </div>
+
+            <div class="container-buttons">
+               
+                <button class="calculator-button">1</button>
+                <button class="calculator-button">2</button>
+                <button class="calculator-button">3</button>
+                <button class="calculator-button bg-acqa">-</button>
+                
+            </div>
+
+            <div class="container-buttons">
+               
+                <button class="calculator-button">0</button>
+                <button class="calculator-button">.</button>
+                <button class="calculator-button bg-red" >=</button>
+                <button class="calculator-button bg-acqa" >+</button>
+                
+            </div>
+
+
+        </div>
+
+        </div>
+    </body>
+</html>
